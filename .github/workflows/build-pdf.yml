@@ -9,6 +9,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'figs/**'
       - '**.tex'
       - '**.bib'
       - 'lib/**'
